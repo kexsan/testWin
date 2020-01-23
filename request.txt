@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <a:Event name="Case_PIL_Wrapper" xmlns:a="http://www.sas.com/xml/schema/sas-svcs/rtdm-1.1">
+         <a:Header>
+            <a:Identity>Delta</a:Identity>
+            <a:ClientTimeZoneID>Europe/Moscow</a:ClientTimeZoneID>
+         </a:Header>
+         <a:Body>
+            <a:Data name="CLIENT_PIN">
+               <a:String>
+                  <a:Val>AC17VH</a:Val>
+               </a:String>
+            </a:Data>
+            <a:Data name="CHANNEL">
+               <a:String>
+                  <a:Val>OCRM</a:Val>
+               </a:String>
+            </a:Data>
+            <a:Data name="EXTERNAL_ID">
+               <a:Float>
+                  <a:Val>103.0</a:Val>
+               </a:Float>
+            </a:Data>
+         </a:Body>
+      </a:Event>
+   </soapenv:Body>
+</soapenv:Envelope>
